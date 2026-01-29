@@ -23,6 +23,7 @@ model = tf.keras.Sequential([
     )
 ])
 
+
 # -------- HEADER --------
 st.markdown("<h1 style='text-align:center;'>🛒 FreshCheck</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align:center;color:gray;'>AI fruit freshness detection for supermarkets</p>", unsafe_allow_html=True)
