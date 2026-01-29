@@ -1,0 +1,2 @@
+fresh_fruit (apple, banana, strawberry)
+rotten_fruit (apple, banana, strawberry)
