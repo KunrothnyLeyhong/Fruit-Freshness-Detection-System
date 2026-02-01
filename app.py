@@ -1,3 +1,6 @@
+import os
+os.environ["OPENCV_HEADLESS"] = "1"
+
 import streamlit as st
 import tensorflow as tf
 import numpy as np
