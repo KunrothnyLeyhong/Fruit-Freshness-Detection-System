@@ -15,8 +15,6 @@
         - tensorflow
         - numpy
         - pillow
-        - opencv-python
-        - streamlit-webrtc
     - Run the Application
       - Start the Streamlit app: streamlit run app.py
       - You should see output like:
@@ -38,11 +36,3 @@
           - 🔴 Fruit is ROTTEN + high confidence
       The confidence percentage should be close to what Teachable Machine shows.
       No image is saved to the system (no database needed)
-    - Live Webcam Test
-      - Click “Live Webcam” tab
-      - Allow camera access in your browser
-      - Point the camera at the fruit
-      - Expected Behavior:
-        - The live webcam displays real-time predictions
-        - The label and confidence percentage update automatically
-        - Delays may occur on slow or restrictive networks; STUN/TURN servers are used to improve connection
